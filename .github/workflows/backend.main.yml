@@ -19,8 +19,8 @@ jobs:
       uses: actions/checkout@v2
 
     - name: 'Login via Azure CLI'
-     uses: azure/login@v1
-     with:
+      uses: azure/login@v1
+      with:
       creds: ${{ secrets.AZURE_CREDENTIALS }}
 
     - name: Setup DotNet ${{ env.DOTNET_VERSION }} Environment
@@ -28,7 +28,7 @@ jobs:
       with:
         dotnet-version: ${{ env.DOTNET_VERSION }}
 
-    - name: 'Resolve Project Dependencies Using Dotnet'
+    - name: 'Run dotnet'
       shell: pwsh
       run: |
         pushd './${{ env.AZURE_FUNCTIONAPP_PACKAGE_PATH }}/api'
