@@ -6,3 +6,8 @@ My own azure resume, created with help from the ACG project video
 - Created Main.js
 - Created Backend of Azure function for site counter
 - Confrimed working locally and on Azure
+- Deployed web page to Static Web App
+- Deployed Fuction to Azure Functions
+- Configured github workflow to push changes to HTML and frontend folder
+- Setup dotnet tests and workflow for changes to the backend folder
+- Updated README files
