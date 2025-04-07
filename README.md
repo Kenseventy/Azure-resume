@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # azure-resume
 My own azure resume, created with help from the ACG project video
 
@@ -18,4 +17,4 @@ This is where the display part of the website lives.
 
 ## Other info
 - Connected to GitHub Actions to make automatic changes.
->>>>>>> 23f140f (Removed Weather app)
+
