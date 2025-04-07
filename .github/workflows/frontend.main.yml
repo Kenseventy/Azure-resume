@@ -1,7 +1,6 @@
 name: Deploy_frontend
 #Deploys when push is made from frontend folder
 
-
 on:
     push:
         branches: [ main ]
@@ -28,6 +27,7 @@ jobs:
         inlineScript: |
            az cdn endpoint purge --content-paths  "/*" --profile-name "azureresumekm" --name "azureresumekm" --resource-group "KMCloudTechResumeRG"
 
+           
   # Azure logout
     - name: logout
       run: |
