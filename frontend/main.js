@@ -22,7 +22,7 @@ const NotifyDiscord = () => {
         console.log("✅ Discord message sent.");
     })
     .catch(error => {
-        console.error("❌ Error sending to Discord:", error);
+        console.error("❌ Error, Error sending to Discord:", error);
     });
 }
 
