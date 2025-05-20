@@ -42,7 +42,3 @@ jobs:
               --profile-name "azureresumekm" \
               --name "azureresumekm" \
               --resource-group "KMCloudTechResumeRG"
-
-      - name: Azure logout
-        run: az logout
-        if: always()
